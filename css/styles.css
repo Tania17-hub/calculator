@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  background: black;
+  width: 1300px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.calculator {
+  text-align: end;
+  text-decoration: center;
+  width: 500px;
+
+  background: black;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.display {
+  width: 450px;
+  height: 70px;
+  font-size: 36px;
+  align-items: center;
+  border-width: 3px;
+  border-style: double;
+  border-color: orange;
+  margin-bottom: 20px;
+}
+.buttNum {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px;
+  border: none;
+}
+.buttonFirst {
+  background: gray;
+  border-radius: 110px;
+  font-size: 40px;
+  height: 110px;
+  width: 110px;
+  color: black;
+}
+.buttonCenter {
+  background: rgb(57, 53, 53);
+  border-radius: 110px;
+  font-size: 40px;
+  height: 110px;
+  width: 110px;
+  color: white;
+}
+.buttonRight {
+  background: orange;
+  border-radius: 110px;
+  font-size: 40px;
+  height: 110px;
+  width: 110px;
+  color: white;
+}
+.buttonE {
+  background: orange;
+  border-radius: 110px;
+  font-size: 40px;
+  height: 110px;
+  width: 230px;
+  color: white;
+}
+button:active {
+  background-color: #d0c9c965;
+}
