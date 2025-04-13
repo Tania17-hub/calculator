@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-cloud" viewBox="0 0 32 32">
+      <path d="M32 20.548a5.452 5.452 0 0 0-4.156-5.296A7.438 7.438 0 0 0 20.411 8a7.42 7.42 0 0 0-5.839 2.835 4.168 4.168 0 0 0-3.303-1.624 4.177 4.177 0 0 0-4.133 4.771 6.056 6.056 0 0 0-7.134 5.96A6.056 6.056 0 0 0 6.056 26h20.508a5.45 5.45 0 0 0 5.438-5.451z"/>
+    </symbol>
+<symbol id="icon-close" viewBox="0 0 32 32">
+      <path d="M32 3.223 28.777 0 16 12.777 3.223 0 0 3.223 12.777 16 0 28.777 3.223 32 16 19.223 28.777 32 32 28.777 19.223 16 32 3.223z"/>
+    </symbol> 
+    </defs>
+</svg>

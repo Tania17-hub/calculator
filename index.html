@@ -10,6 +10,24 @@
   </head>
   <body>
     <div class="calculator">
+      <div class="history">
+        <button class="btn-history" id="toggle-history">
+          <svg class="history-icon" width="30" height="30">
+            <use href="./img/icons.svg#icon-cloud"></use>
+          </svg>
+        </button>
+        <div class="windowHistory hidden" id="windowHistory">
+          <div class="historyVeiw">
+            <span class="memory">Memory</span>
+            <button id="close-history" class="btn-close">
+              <svg class="close-history" width="16" height="16">
+                <use href="./img/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+          </div>
+          <div id="history-list"></div>
+        </div>
+      </div>
       <div class="display">0</div>
       <div class="buttNum">
         <button type="button" class="button buttonFirst">AC</button>
